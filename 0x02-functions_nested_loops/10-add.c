@@ -9,9 +9,6 @@
  **/
 int add(int i, int j)
 {
-	int i;
-	int j;
-
-int x  = j + i
+int x  = j + i;
 	return (x);
 }
