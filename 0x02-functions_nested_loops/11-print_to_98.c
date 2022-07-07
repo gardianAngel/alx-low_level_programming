@@ -10,13 +10,10 @@ void print_to_98(int n)
 {
 	int i = 0;
 
-	_putchar(n);
-
-	while (i < 99)
+	for (i = n; i < 98; i++)
 	{
-		_putchar(n - 1);
+		_putchar(i);
 		_putchar(',');
 		_putchar(' ');
 	}
-	i++;
 }
