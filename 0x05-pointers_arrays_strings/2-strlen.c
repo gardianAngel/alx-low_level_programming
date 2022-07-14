@@ -2,12 +2,14 @@
 /**
  * _strlen -> a function that  returns the lenght of a string.
  * @s: points for the string to be chacked
- * REtur: void
+ * RETURN: length of string
  */
 int _strlen(char *s)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
-		return (i);
+	while (s[i])
+		i++;
+
+	return (i);
 }
